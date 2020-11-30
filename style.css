@@ -1,0 +1,169 @@
+
+body{
+    background:
+    radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+    #fff;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+}
+.name{
+    position: absolute;
+    left: 5%;
+    color: black;
+    font-family: 'Fira Mono', monospace;
+    top: 80px;
+    font-weight: 900;
+    transition: transform .2s;
+}
+.name:hover{
+    transform: scale(1.2);
+}
+
+
+.photo{
+    position: absolute;
+    width: 1349px;
+    bottom: 0px;
+    left: 0px;
+    padding: 0px;
+    margin: 0px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+}
+a:link{
+    color:black;
+    text-decoration: none;
+    
+}
+a:visited{
+    color:black;
+    text-decoration: none;
+    
+}
+
+.copyright{
+    position: absolute;
+    display: inline;
+    color: grey;
+    top: 90%;
+    right: 25px;
+   
+    font-family: 'Roboto', sans-serif;
+    
+}
+.cursor{
+    display: inline-block;
+    width: 3px;
+    background-color: #1887DD;
+    margin-left: 0.2rem;
+    animation: blink 0.5s infinite;
+  }
+  @keyframes blink {
+    0% {background-color: #1887DD;}
+    50%{background-color: transparent;}
+    100%{background-color: #1887DD;}
+  }
+  .typed-text{
+    font-weight: 900;
+    color: #1887DD;
+  }
+  .salutation{
+      position: absolute;
+      left: 40%;
+      top: 75%;
+      font-family: 'Fira Mono', monospace;
+      background-color: honeydew;
+      padding: 5px;
+      
+  }
+  #objPerson{
+      border-radius: 10px;
+      position: absolute;
+      top: 120%;
+      padding: 10px;
+      height: 350px;
+      width: 600px;
+      background-color: honeydew;
+      color: black;
+      left: 150px;
+      font-family: Consolas;
+
+     
+  }
+    .photodeux{
+        position: absolute;
+        top: 130%;
+        border-radius: 50%;
+        left: 65%;
+  }
+  .nametwo{
+      color: #1887dd;
+      transition: transform .2s;
+  }
+.empty{
+    position: absolute;
+    top: 160%;
+    width: 1160px;
+    height: 2px;
+}
+.eNav{
+    position: fixed;
+    list-style-type: none;
+    top: 20px;
+    margin: 0;
+    left: 170px;
+    padding: 3px 0 3px 0;
+    overflow: hidden;
+    width: 1000px;
+    background-color: honeydew;
+    z-index: 999;
+    border-radius: 25px;
+  }
+  
+  li {
+    float: left;
+    text-align: right;
+    padding: 0 85px 0 85px;
+    font-family: 'Fira Mono', monospace;
+    font-size: 15px;
+    font-weight: 900;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    transition: transform .2s;
+   
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    transform: scale(1.2);
+    color:  #1887DD;
+  }
+  #emptyTwo{
+    position: absolute;
+    top: 100%;
+    width: 1120px;
+    height: 20px;
+    
+  } 
+  #objPerson{
+    animation: 2s myfirst;
+    animation-direction: alternate;
+
+   }
+   @keyframes myfirst {
+    %   { left: 0px; }
+    100% { left: 150px; }
+  }
+  .nametwo:hover{
+    transform: scale(1.2);
+  }
+  
